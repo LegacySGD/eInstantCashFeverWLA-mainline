@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <family code="2164" desc="Lottery Game" studio="interactive" organizationName="Interactive">
+        <!-- -  For spot supported games: spots are colon separated string like 1:2:3:4:5.Otherwise left blank -->
+        <game name="Cash Fever WLA" version="1.0.13" gameengineversion="2" gamelogicversion="1.0"
+              number="0"
+              jackpotid=""
+              gametype="L"
+              loadprevstate="N"
+              numberGenerator="RNG"
+              betMultipliers="50,100,200,300,500,800,1000,1500,2000,3000,4000,5000,7500,10000,15000"
+              spots=""
+              productId="1"
+              gamegroup="eGames"
+              languages="en,en_US,pl_PL,tr_TR"
+              skbPlatformVersion="1.4.0"
+              merchandisePrize="N"
+              stateful="N">
+
+            <!-- GA 50, 100, 200, 300, 500, 1000, 2000 -->
+            <paymodel modelid="300-2164-001"  revealId="4422" revealVersionId="4422"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Cash Fever WLA : 300-2164-001"
+                      hibethold="22.00" lobethold="22.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2164-001" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2164-001" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- KY 50, 100, 200, 300 500, 1000, 2000 -->
+            <paymodel modelid="300-2164-002"  revealId="4422" revealVersionId="4416"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Cash Fever WLA : 300-2164-002"
+                      hibethold="22.00" lobethold="22.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2164-002" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2164-002" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- PLT 100, 200, 300, 500, 1000, 2000, 3000, 5000 -->
+            <paymodel modelid="300-2164-003"  revealId="4422" revealVersionId="4422"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Cash Fever WLA : 300-2164-003"
+                      hibethold="22.00" lobethold="21.96"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2164-003" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2164-003" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- RI 100, 200, 300, 500, 1000, 2000 -->
+            <paymodel modelid="300-2164-004"  revealId="4422" revealVersionId="4416"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Cash Fever WLA : 300-2164-004"
+                      hibethold="15.00" lobethold="15.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2164-004" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2164-004" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- TUR 65% ₺500, ₺800, ₺1500, ₺3000, ₺4000, ₺5000, ₺7500, ₺10000 & ₺15000 -->
+            <paymodel modelid="300-2164-005"  revealId="4422" revealVersionId="4416"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Cash Fever WLA : 300-2164-005"
+                      hibethold="35.00" lobethold="35.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2164-005" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2164-005" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- TUR 70% ₺500, ₺800, ₺1500, ₺3000, ₺4000, ₺5000, ₺7500, ₺10000 & ₺15000 -->
+            <paymodel modelid="300-2164-006"  revealId="4422" revealVersionId="4416"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Cash Fever WLA : 300-2164-006"
+                      hibethold="30.00" lobethold="30.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2164-006" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2164-006" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- ZER -->
+            <!-- <paymodel modelid="300-2164-099"  revealId="2164" revealVersionId="2164"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Cash Fever WLA : 300-2164-099"
+                      hibethold="35.00" lobethold="31.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2164-099" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2164-099" clienttype="HTML" configcode="PHLP"/>     -->
+
+            <denom currencycode="EUR" amount="0.01"/>
+            <denom currencycode="GBP" amount="0.01"/>
+            <denom currencycode="PLN" amount="0.01,0.05"/>
+            <denom currencycode="TRY" amount="0.01"/>
+            <denom currencycode="USD" amount="0.01,0.02"/>
+        </game>
+    </family>
